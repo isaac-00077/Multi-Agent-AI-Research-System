@@ -1,0 +1,49 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Test, coverage, and type-checker output
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Local tooling and deployment metadata
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+.vercel/
+
+# Logs and local runtime files
+*.log
+*.pid
+*.tmp
+*.local
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
