@@ -11,4 +11,4 @@
  * 2. In-app interactive URL configuration via the top header badge
  * 3. Query string override (e.g. https://your-site.vercel.app?backend=https://your-backend.onrender.com)
  */
-window.AETHERIS_BACKEND_URL = "";
+window.AETHERIS_BACKEND_URL = "https://aetheris-multi-agent-ai-research-system.onrender.com/";
